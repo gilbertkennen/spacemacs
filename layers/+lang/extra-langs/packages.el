@@ -3,6 +3,7 @@
     arduino-mode
     julia-mode
     matlab-mode
+    ponylang-mode
     qml-mode
     scad-mode
     stan-mode
@@ -24,6 +25,9 @@
 
 (defun extra-langs/init-matlab-mode ()
   (use-package matlab-mode :defer t))
+
+(defun extra-langs/init-ponylang-mode ()
+  (use-package ponylang-mode :defer t))
 
 (defun extra-langs/init-stan-mode ()
   (use-package stan-mode :defer t))

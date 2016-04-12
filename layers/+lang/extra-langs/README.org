@@ -13,6 +13,7 @@ These include:
 - MATLAB
 - QML
 - OpenScad
+- Pony
 - Stan
 - Thrift
 - Wolfram Language / Mathematica
